@@ -1,0 +1,28 @@
+{
+  "name": "todo-api",
+  "version": "1.0.0",
+  "description": "API do projeto TODO criado para servir de praticas das tecnologias usadas no projeto do semestre na FICR",
+  "main": "app",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lericardolima/todo-api.git"
+  },
+  "author": "Ricardo Rocha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lericardolima/todo-api/issues"
+  },
+  "homepage": "https://github.com/lericardolima/todo-api#readme"
+}
