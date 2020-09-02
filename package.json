@@ -1,7 +1,7 @@
 {
-  "name": "todo-api",
+  "name": "clinica-veterinaria",
   "version": "1.0.0",
-  "description": "API do projeto TODO criado para servir de praticas das tecnologias usadas no projeto do semestre na FICR",
+  "description": "Projeto simples para praticar desenvolvimento em NodeJS.",
   "main": "app",
   "dependencies": {
     "body-parser": "^1.19.0",
@@ -22,12 +22,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lericardolima/todo-api.git"
+    "url": "git+https://github.com/lericardolima/clinica-veterinaria.git"
   },
   "author": "Ricardo Rocha",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lericardolima/todo-api/issues"
+    "url": "https://github.com/lericardolima/clinica-veterinaria/issues"
   },
-  "homepage": "https://github.com/lericardolima/todo-api#readme"
+  "homepage": "https://github.com/lericardolima/clinica-veterinaria#readme"
 }
