@@ -2,7 +2,6 @@ const express = require('express'),
   app = express(),
   port = process.env.PORT || 3000,
   bodyParser = require('body-parser'),
-  db = require('./config/database'),
   routes = require('./api/routes');
 
 // Definição do body parser
@@ -13,7 +12,7 @@ app.use(bodyParser.json());
 routes(app);
 
 // Configuração do banco de dados
-db.config();
+require('./config/database');
 
 // Start do servidor
 app.listen(port);
